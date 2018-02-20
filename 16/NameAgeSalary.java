@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class NameAgeSalary {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Hi! What's your name?");
+        String name = input.nextLine();
+        System.out.println("");
+        
+        System.out.println("Hi, " + name + "! How old are you?");
+        int age = input.nextInt();
+        System.out.println("");
+        
+        System.out.println("So you're " + age + ", eh? That's not old at all! How much do you make?");
+        double salary = input.nextDouble();
+        System.out.println("");
+        
+        System.out.println(salary + "! I hope that's per hour and not per year!");
+    }
+}
