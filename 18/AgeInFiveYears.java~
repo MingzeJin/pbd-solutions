@@ -6,7 +6,7 @@ public class AgeInFiveYears {
       String name = input.nextLine();
       System.out.println("");
         
-      System.out.print("Hi, " + name + "! How old are you?");
+      System.out.print("Hi, " + name + "! How old are you? ");
       int age = input.nextInt();
       System.out.println("");
       
